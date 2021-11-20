@@ -4,10 +4,15 @@
 
 #ifndef ZOOPROJEKT_LUMBERMILL_H
 #define ZOOPROJEKT_LUMBERMILL_H
+#include <iostream>
+#include "Mines.h"
 
-
-class LumberMill {
-
+class LumberMill : public Mines{
+    std::string m_id;
+public:
+    LumberMill ();
+    std::string getId ();
+    // zavolání metody generateResources, aby se vygenerovalo dřevo (až v implementaci)
 };
 
 

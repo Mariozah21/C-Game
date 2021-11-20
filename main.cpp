@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Mines.h"
+#include "Storage.h"
+#include "GoldMine.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }

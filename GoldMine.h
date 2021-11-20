@@ -4,10 +4,15 @@
 
 #ifndef ZOOPROJEKT_GOLDMINE_H
 #define ZOOPROJEKT_GOLDMINE_H
+#include <iostream>
+#include "Mines.h"
 
-
-class GoldMine {
-
+class GoldMine : public Mines{
+    std::string m_id;
+public:
+    GoldMine();
+    std::string getId ();
+    // zavolání metody generateResources, aby se vygenerovalo zlato (až v implementaci)
 };
 
 

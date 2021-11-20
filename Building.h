@@ -4,10 +4,11 @@
 
 #ifndef ZOOPROJEKT_BUILDING_H
 #define ZOOPROJEKT_BUILDING_H
+#include <iostream>
 
-
-class Building {
-
+class Building{
+public:
+    int m_buildLevel = 1;
 };
 
 

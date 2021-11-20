@@ -4,10 +4,15 @@
 
 #ifndef ZOOPROJEKT_STONEMINE_H
 #define ZOOPROJEKT_STONEMINE_H
+#include <iostream>
+#include "Mines.h"
 
-
-class StoneMine {
-
+class StoneMine : public Mines{
+    std::string m_id;
+public:
+    StoneMine();
+    std::string getId ();
+    // zavolání metody generateResources, aby se vygeneroval kámen (až v implementaci)
 };
 
 

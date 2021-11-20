@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/kamil/Downloads/ZOOprojekt/Building.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Building.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/GoldMine.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/GoldMine.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/Housing.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Housing.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/LumberMill.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/LumberMill.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/Mines.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Mines.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/StoneMine.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/StoneMine.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/Storage.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Storage.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/TownHall.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/TownHall.cpp.obj"
-  "C:/Users/kamil/Downloads/ZOOprojekt/main.cpp" "C:/Users/kamil/Downloads/ZOOprojekt/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/main.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/Building.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Building.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/GoldMine.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/Housing.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Housing.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/LumberMill.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/Mines.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Mines.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/StoneMine.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/StoneMine.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/Storage.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Storage.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/TownHall.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/TownHall.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/main.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
