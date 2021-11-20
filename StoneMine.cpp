@@ -10,3 +10,7 @@ StoneMine::StoneMine() {
 std::string StoneMine::getId() {
     return m_id;
 }
+
+void StoneMine::generateResources(){
+    Mines::generateResources("StoneMine");
+};

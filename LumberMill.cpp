@@ -11,3 +11,7 @@ LumberMill::LumberMill() {
 std::string LumberMill::getId() {
     return m_id;
 }
+
+void LumberMill::generateResources() {
+    Mines::generateResources("LumberMill");
+}

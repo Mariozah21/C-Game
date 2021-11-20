@@ -11,3 +11,7 @@ GoldMine::GoldMine() {
 std::string GoldMine::getId() {
     return m_id;
 }
+
+void GoldMine::generateResources() {
+    Mines::generateResources("GoldMine");
+}

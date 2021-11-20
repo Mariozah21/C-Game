@@ -12,7 +12,7 @@ class GoldMine : public Mines{
 public:
     GoldMine();
     std::string getId ();
-    // zavolání metody generateResources, aby se vygenerovalo zlato (až v implementaci)
+    void generateResources (); // zavolání metody generateResources, aby se vygenerovalo zlato (až v implementaci)
 };
 
 

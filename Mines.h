@@ -10,7 +10,7 @@
 class Mines: public Building{
     std::string m_id;
 public:
-    void generateResources (std::string id);
+    virtual void generateResources (std::string id); // v diagramu mi nejde ta metoda dát do kurzívy
 };
 
 

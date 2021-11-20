@@ -12,7 +12,7 @@ class StoneMine : public Mines{
 public:
     StoneMine();
     std::string getId ();
-    // zavolání metody generateResources, aby se vygeneroval kámen (až v implementaci)
+    void generateResources (); // zavolání metody generateResources, aby se vygeneroval kámen (až v implementaci)
 };
 
 

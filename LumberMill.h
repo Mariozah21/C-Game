@@ -12,7 +12,7 @@ class LumberMill : public Mines{
 public:
     LumberMill ();
     std::string getId ();
-    // zavolání metody generateResources, aby se vygenerovalo dřevo (až v implementaci)
+    void generateResources (); // zavolání metody generateResources, aby se vygenerovalo dřevo (až v implementaci)
 };
 
 
