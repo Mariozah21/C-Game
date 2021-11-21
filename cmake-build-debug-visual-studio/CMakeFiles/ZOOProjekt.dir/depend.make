@@ -7,6 +7,7 @@ CMakeFiles\ZOOProjekt.dir\Building.cpp.obj: ..\Building.h
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Building.h
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\GoldMine.cpp
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\GoldMine.h
+CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Mines.h
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Storage.h
 
@@ -14,17 +15,20 @@ CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj: ..\Housing.cpp
 CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj: ..\Housing.h
 
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\LumberMill.cpp
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\LumberMill.h
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Mines.h
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Storage.h
 
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Mines.cpp
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Mines.h
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Storage.h
 
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\Mines.h
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\StoneMine.cpp
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\StoneMine.h
@@ -38,6 +42,7 @@ CMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj: ..\TownHall.h
 
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Building.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\GoldMine.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Mines.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Storage.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\main.cpp

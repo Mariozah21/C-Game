@@ -6,11 +6,12 @@
 #include <iostream>
 #include "Building.h"
 #include "Storage.h"
+#include "Housing.h"
 
 class Mines: public Building{
     std::string m_id;
 public:
-    virtual void generateResources (std::string id); // v diagramu mi nejde ta metoda dát do kurzívy
+    virtual void generateResources (std::string id, int buildLevel); // v diagramu mi nejde ta metoda dát do kurzívy
 };
 
 

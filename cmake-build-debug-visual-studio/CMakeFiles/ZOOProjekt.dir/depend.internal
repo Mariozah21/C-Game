@@ -8,6 +8,7 @@ CMakeFiles/ZOOProjekt.dir/GoldMine.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Building.h
  C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.cpp
  C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.h
+ C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
  C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storage.h
 CMakeFiles/ZOOProjekt.dir/Housing.cpp.obj
@@ -15,17 +16,20 @@ CMakeFiles/ZOOProjekt.dir/Housing.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
 CMakeFiles/ZOOProjekt.dir/LumberMill.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Building.h
+ C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
  C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.cpp
  C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.h
  C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storage.h
 CMakeFiles/ZOOProjekt.dir/Mines.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Building.h
+ C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
  C:/Users/kamil/Downloads/zoo_semestralka/Mines.cpp
  C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storage.h
 CMakeFiles/ZOOProjekt.dir/StoneMine.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Building.h
+ C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
  C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
  C:/Users/kamil/Downloads/zoo_semestralka/StoneMine.cpp
  C:/Users/kamil/Downloads/zoo_semestralka/StoneMine.h
@@ -39,6 +43,7 @@ CMakeFiles/ZOOProjekt.dir/TownHall.cpp.obj
 CMakeFiles/ZOOProjekt.dir/main.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Building.h
  C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.h
+ C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
  C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storage.h
  C:/Users/kamil/Downloads/zoo_semestralka/main.cpp

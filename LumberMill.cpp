@@ -6,12 +6,9 @@
 
 LumberMill::LumberMill() {
     m_id = "LumberMill";
-}
-
-std::string LumberMill::getId() {
-    return m_id;
+    buildLevel = m_buildLevel;
 }
 
 void LumberMill::generateResources() {
-    Mines::generateResources("LumberMill");
+    Mines::generateResources("LumberMill", buildLevel);
 }

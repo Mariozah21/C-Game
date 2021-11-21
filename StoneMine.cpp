@@ -5,6 +5,7 @@
 #include "StoneMine.h"
 StoneMine::StoneMine() {
     m_id = "StoneMine";
+    buildLevel = m_buildLevel;
 }
 
 std::string StoneMine::getId() {
@@ -12,5 +13,5 @@ std::string StoneMine::getId() {
 }
 
 void StoneMine::generateResources(){
-    Mines::generateResources("StoneMine");
+    Mines::generateResources("StoneMine", buildLevel);
 };

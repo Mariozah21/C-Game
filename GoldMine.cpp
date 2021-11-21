@@ -6,6 +6,7 @@
 
 GoldMine::GoldMine() {
     m_id = "GoldMine";
+    buildLevel = m_buildLevel;
 }
 
 std::string GoldMine::getId() {
@@ -13,5 +14,6 @@ std::string GoldMine::getId() {
 }
 
 void GoldMine::generateResources() {
-    Mines::generateResources("GoldMine");
+    Mines::generateResources("GoldMine", buildLevel);
 }
+

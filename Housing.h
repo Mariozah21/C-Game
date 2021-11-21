@@ -5,9 +5,11 @@
 #ifndef ZOOPROJEKT_HOUSING_H
 #define ZOOPROJEKT_HOUSING_H
 
+#include <iostream>
 
 class Housing {
-
+public:
+    void removePopulation ();
 };
 
 

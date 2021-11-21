@@ -4,11 +4,14 @@
 
 #ifndef ZOOPROJEKT_GOLDMINE_H
 #define ZOOPROJEKT_GOLDMINE_H
+
 #include <iostream>
 #include "Mines.h"
+#include "Building.h"
 
 class GoldMine : public Mines{
     std::string m_id;
+    int buildLevel;
 public:
     GoldMine();
     std::string getId ();
