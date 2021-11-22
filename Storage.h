@@ -4,13 +4,15 @@
 
 #ifndef ZOOPROJEKT_STORAGE_H
 #define ZOOPROJEKT_STORAGE_H
-#include <iostream>
 
-class Storage {
-    std::string m_id;
-    int m_storedResources;
+#include <iostream>
+#include "Mines.h"
+#include "GoldStorage.h"
+#include "WoodStorage.h"
+#include "StoneStorage.h"
+
+class Storage{
 public:
-    Storage ();
     void storeResources (int resourceQuantity, std::string id);
 };
 

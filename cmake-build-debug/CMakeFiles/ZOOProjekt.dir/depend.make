@@ -3,36 +3,74 @@
 
 CMakeFiles\ZOOProjekt.dir\Building.cpp.obj: ..\Building.cpp
 CMakeFiles\ZOOProjekt.dir\Building.cpp.obj: ..\Building.h
-CMakeFiles\ZOOProjekt.dir\Building.cpp.obj: ..\Mines.h
 
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Building.h
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\GoldMine.cpp
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\GoldMine.h
+CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\GoldStorage.h
+CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Mines.h
+CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\StoneStorage.h
+CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\Storage.h
+CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\WoodStorage.h
+
+CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj: ..\GoldStorage.cpp
+CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj: ..\GoldStorage.h
 
 CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj: ..\Housing.cpp
 CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj: ..\Housing.h
 
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\GoldStorage.h
+CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\LumberMill.cpp
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\LumberMill.h
 CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Mines.h
+CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\StoneStorage.h
+CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\Storage.h
+CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\WoodStorage.h
 
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\GoldStorage.h
+CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Mines.cpp
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Mines.h
+CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\StoneStorage.h
 CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Storage.h
+CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\WoodStorage.h
 
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\GoldStorage.h
+CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\Housing.h
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\Mines.h
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\StoneMine.cpp
 CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\StoneMine.h
+CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\StoneStorage.h
+CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\Storage.h
+CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\WoodStorage.h
 
+CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj: ..\StoneStorage.cpp
+CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj: ..\StoneStorage.h
+
+CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj: ..\GoldStorage.h
+CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj: ..\StoneStorage.h
 CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj: ..\Storage.cpp
 CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj: ..\Storage.h
+CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj: ..\WoodStorage.h
 
 CMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj: ..\TownHall.cpp
 CMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj: ..\TownHall.h
 
+CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj: ..\WoodStorage.cpp
+CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj: ..\WoodStorage.h
+
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\GoldMine.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\GoldStorage.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Housing.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Mines.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\StoneStorage.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Storage.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\WoodStorage.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\main.cpp
 

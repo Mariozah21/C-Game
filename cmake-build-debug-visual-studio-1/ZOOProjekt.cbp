@@ -88,10 +88,22 @@
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Building.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Housing.cpp">
@@ -118,6 +130,12 @@
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/StoneMine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/StoneStorage.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/StoneStorage.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
@@ -128,6 +146,12 @@
 			<Option target="ZOOProjekt"/>
 		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/TownHall.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/WoodStorage.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/WoodStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/main.cpp">

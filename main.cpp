@@ -1,9 +1,8 @@
 #include <iostream>
-#include "Mines.h"
-#include "Storage.h"
-#include "GoldMine.h"
+#include "GameEngine.h"
 
 int main() {
-
+    GameEngine* hra = new GameEngine;
+    hra->hraj();
     return 0;
 }

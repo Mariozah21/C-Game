@@ -10,19 +10,21 @@ C:/Users/kamil/Downloads/zoo_semestralka/Building.h
 iostream
 -
 
-C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
-iostream
--
-
-C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.cpp
-LumberMill.h
-C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.h
-
-C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.h
+C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.h
 iostream
 -
 Mines.h
 C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
+Building.h
+C:/Users/kamil/Downloads/zoo_semestralka/Building.h
+
+C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.h
+iostream
+-
+
+C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
+iostream
+-
 
 C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
 iostream
@@ -34,7 +36,29 @@ C:/Users/kamil/Downloads/zoo_semestralka/Storage.h
 Housing.h
 C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
 
+C:/Users/kamil/Downloads/zoo_semestralka/StoneStorage.h
+
 C:/Users/kamil/Downloads/zoo_semestralka/Storage.h
 iostream
 -
+GoldStorage.h
+C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.h
+WoodStorage.h
+C:/Users/kamil/Downloads/zoo_semestralka/WoodStorage.h
+StoneStorage.h
+C:/Users/kamil/Downloads/zoo_semestralka/StoneStorage.h
+
+C:/Users/kamil/Downloads/zoo_semestralka/WoodStorage.h
+
+C:/Users/kamil/Downloads/zoo_semestralka/main.cpp
+iostream
+-
+Mines.h
+C:/Users/kamil/Downloads/zoo_semestralka/Mines.h
+Storage.h
+C:/Users/kamil/Downloads/zoo_semestralka/Storage.h
+GoldMine.h
+C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.h
+GoldStorage.h
+C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.h
 

@@ -9,13 +9,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/kamil/Downloads/zoo_semestralka/Building.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/Building.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/GameEngine.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/GoldMine.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/GoldStorage.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/Housing.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/Housing.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/LumberMill.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/Mines.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/Mines.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/StoneMine.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/StoneMine.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/StoneStorage.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/StoneStorage.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/Storage.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/Storage.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/TownHall.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/TownHall.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/WoodStorage.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/WoodStorage.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/main.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

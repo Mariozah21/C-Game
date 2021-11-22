@@ -166,6 +166,30 @@ GoldMine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.s
 .PHONY : GoldMine.cpp.s
 
+GoldStorage.obj: GoldStorage.cpp.obj
+.PHONY : GoldStorage.obj
+
+# target to build an object file
+GoldStorage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj
+.PHONY : GoldStorage.cpp.obj
+
+GoldStorage.i: GoldStorage.cpp.i
+.PHONY : GoldStorage.i
+
+# target to preprocess a source file
+GoldStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.i
+.PHONY : GoldStorage.cpp.i
+
+GoldStorage.s: GoldStorage.cpp.s
+.PHONY : GoldStorage.s
+
+# target to generate assembly for a file
+GoldStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.s
+.PHONY : GoldStorage.cpp.s
+
 Housing.obj: Housing.cpp.obj
 .PHONY : Housing.obj
 
@@ -262,6 +286,30 @@ StoneMine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.s
 .PHONY : StoneMine.cpp.s
 
+StoneStorage.obj: StoneStorage.cpp.obj
+.PHONY : StoneStorage.obj
+
+# target to build an object file
+StoneStorage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj
+.PHONY : StoneStorage.cpp.obj
+
+StoneStorage.i: StoneStorage.cpp.i
+.PHONY : StoneStorage.i
+
+# target to preprocess a source file
+StoneStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.i
+.PHONY : StoneStorage.cpp.i
+
+StoneStorage.s: StoneStorage.cpp.s
+.PHONY : StoneStorage.s
+
+# target to generate assembly for a file
+StoneStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.s
+.PHONY : StoneStorage.cpp.s
+
 Storage.obj: Storage.cpp.obj
 .PHONY : Storage.obj
 
@@ -310,6 +358,30 @@ TownHall.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\TownHall.cpp.s
 .PHONY : TownHall.cpp.s
 
+WoodStorage.obj: WoodStorage.cpp.obj
+.PHONY : WoodStorage.obj
+
+# target to build an object file
+WoodStorage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj
+.PHONY : WoodStorage.cpp.obj
+
+WoodStorage.i: WoodStorage.cpp.i
+.PHONY : WoodStorage.i
+
+# target to preprocess a source file
+WoodStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.i
+.PHONY : WoodStorage.cpp.i
+
+WoodStorage.s: WoodStorage.cpp.s
+.PHONY : WoodStorage.s
+
+# target to generate assembly for a file
+WoodStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.s
+.PHONY : WoodStorage.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -349,6 +421,9 @@ help:
 	@echo ... GoldMine.obj
 	@echo ... GoldMine.i
 	@echo ... GoldMine.s
+	@echo ... GoldStorage.obj
+	@echo ... GoldStorage.i
+	@echo ... GoldStorage.s
 	@echo ... Housing.obj
 	@echo ... Housing.i
 	@echo ... Housing.s
@@ -361,12 +436,18 @@ help:
 	@echo ... StoneMine.obj
 	@echo ... StoneMine.i
 	@echo ... StoneMine.s
+	@echo ... StoneStorage.obj
+	@echo ... StoneStorage.i
+	@echo ... StoneStorage.s
 	@echo ... Storage.obj
 	@echo ... Storage.i
 	@echo ... Storage.s
 	@echo ... TownHall.obj
 	@echo ... TownHall.i
 	@echo ... TownHall.s
+	@echo ... WoodStorage.obj
+	@echo ... WoodStorage.i
+	@echo ... WoodStorage.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -5,13 +5,15 @@
 #define ZOOPROJEKT_MINES_H
 #include <iostream>
 #include "Building.h"
-#include "Storage.h"
 #include "Housing.h"
 
 class Mines: public Building{
     std::string m_id;
+    int resource;
 public:
-    virtual void generateResources (std::string id, int buildLevel); // v diagramu mi nejde ta metoda dát do kurzívy
+    Mines ();
+    void generateResources (std::string id, int buildLevel); // v diagramu mi nejde ta metoda dát do kurzívy
+    int getResource ();
 };
 
 
