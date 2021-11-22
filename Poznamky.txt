@@ -1,3 +1,6 @@
+!!! upravit diagram !!!
+
+
 Level 1 = generate 1 / 2 populace, level 2 = gen = 2 / populace 4, lvl 3 = 3 / pop 6, lvl 4 = 3 / pop 5 (míň populace) ... max level
 
 
