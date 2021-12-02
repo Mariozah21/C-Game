@@ -142,6 +142,30 @@ Building.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\Building.cpp.s
 .PHONY : Building.cpp.s
 
+GameEngine.obj: GameEngine.cpp.obj
+.PHONY : GameEngine.obj
+
+# target to build an object file
+GameEngine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj
+.PHONY : GameEngine.cpp.obj
+
+GameEngine.i: GameEngine.cpp.i
+.PHONY : GameEngine.i
+
+# target to preprocess a source file
+GameEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.i
+.PHONY : GameEngine.cpp.i
+
+GameEngine.s: GameEngine.cpp.s
+.PHONY : GameEngine.s
+
+# target to generate assembly for a file
+GameEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.s
+.PHONY : GameEngine.cpp.s
+
 GoldMine.obj: GoldMine.cpp.obj
 .PHONY : GoldMine.obj
 
@@ -418,6 +442,9 @@ help:
 	@echo ... Building.obj
 	@echo ... Building.i
 	@echo ... Building.s
+	@echo ... GameEngine.obj
+	@echo ... GameEngine.i
+	@echo ... GameEngine.s
 	@echo ... GoldMine.obj
 	@echo ... GoldMine.i
 	@echo ... GoldMine.s

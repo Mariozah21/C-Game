@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Building.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
