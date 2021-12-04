@@ -34,3 +34,9 @@ void StoneStorage::storeStone (int resourceQuantity){
         m_storedStone = m_maxStored;
     }
 }
+int StoneStorage::getStone() {
+    return m_storedStone;
+}
+int StoneStorage::getMaxStored() {
+    return m_maxStored;
+}

@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.obj"
+  "C:/Users/kamil/Downloads/zoo_semestralka/World.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/World.cpp.obj"
   "C:/Users/kamil/Downloads/zoo_semestralka/main.cpp" "C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/CMakeFiles/ZOOProjekt.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

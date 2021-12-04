@@ -22,6 +22,8 @@ public:
     bool checkStorage(int resourceQuantity);
 
     void storeStone(int resourceQuantity);
+    int getStone();
+    int getMaxStored();
 };
 
 #endif //ZOOPROJEKT_STONESTORAGE_H

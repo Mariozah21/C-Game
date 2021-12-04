@@ -406,6 +406,30 @@ Storages\WoodStorage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.s
 .PHONY : Storages\WoodStorage.cpp.s
 
+World.obj: World.cpp.obj
+.PHONY : World.obj
+
+# target to build an object file
+World.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\World.cpp.obj
+.PHONY : World.cpp.obj
+
+World.i: World.cpp.i
+.PHONY : World.i
+
+# target to preprocess a source file
+World.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\World.cpp.i
+.PHONY : World.cpp.i
+
+World.s: World.cpp.s
+.PHONY : World.s
+
+# target to generate assembly for a file
+World.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ZOOProjekt.dir\World.cpp.s
+.PHONY : World.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -475,6 +499,9 @@ help:
 	@echo ... Storages/WoodStorage.obj
 	@echo ... Storages/WoodStorage.i
 	@echo ... Storages/WoodStorage.s
+	@echo ... World.obj
+	@echo ... World.i
+	@echo ... World.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

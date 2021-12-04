@@ -15,6 +15,7 @@ CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj: ..\Storages\StoneStorage.h
 CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj: ..\Storages\Storage.h
 CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj: ..\Storages\TownHall.h
 CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj: ..\Storages\WoodStorage.h
+CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj: ..\World.h
 
 CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj: ..\Housing.cpp
 CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj: ..\Housing.h
@@ -92,6 +93,10 @@ CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj: ..\Storages\TownHall.h
 CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj: ..\Storages\WoodStorage.cpp
 CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj: ..\Storages\WoodStorage.h
 
+CMakeFiles\ZOOProjekt.dir\World.cpp.obj: ..\Building.h
+CMakeFiles\ZOOProjekt.dir\World.cpp.obj: ..\World.cpp
+CMakeFiles\ZOOProjekt.dir\World.cpp.obj: ..\World.h
+
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Building.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\GameEngine.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Housing.h
@@ -102,5 +107,6 @@ CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Storages\StoneStorage.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Storages\Storage.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Storages\TownHall.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\Storages\WoodStorage.h
+CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\World.h
 CMakeFiles\ZOOProjekt.dir\main.cpp.obj: ..\main.cpp
 

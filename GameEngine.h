@@ -9,6 +9,7 @@
 #include "Storages/WoodStorage.h"
 #include "Storages/TownHall.h"
 #include "Mines/GoldMine.h"
+#include "World.h"
 #include <iostream>
 
 class GameEngine {

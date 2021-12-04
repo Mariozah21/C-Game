@@ -154,6 +154,12 @@
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/World.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/World.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/main.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>

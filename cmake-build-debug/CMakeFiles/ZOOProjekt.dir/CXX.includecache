@@ -25,6 +25,8 @@ Storages/TownHall.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h
 Mines/GoldMine.h
 C:/Users/kamil/Downloads/zoo_semestralka/Mines/GoldMine.h
+World.h
+C:/Users/kamil/Downloads/zoo_semestralka/World.h
 iostream
 -
 
@@ -46,29 +48,17 @@ C:/Users/kamil/Downloads/zoo_semestralka/Building.h
 ../Housing.h
 C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
 
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.cpp
-GoldStorage.h
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.h
-
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.h
 Storage.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 ../Building.h
 C:/Users/kamil/Downloads/zoo_semestralka/Building.h
 
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/StoneStorage.cpp
-StoneStorage.h
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/StoneStorage.h
-
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/StoneStorage.h
 Storage.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 ../Building.h
 C:/Users/kamil/Downloads/zoo_semestralka/Building.h
-
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.cpp
-Storage.h
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 iostream
@@ -86,24 +76,28 @@ C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h
 TownHall.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h
 
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.cpp
-TownHall.h
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h
-
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h
 Storage.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 ../Building.h
 C:/Users/kamil/Downloads/zoo_semestralka/Building.h
 
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.cpp
-WoodStorage.h
-C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h
-
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h
 Storage.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 ../Building.h
+C:/Users/kamil/Downloads/zoo_semestralka/Building.h
+
+C:/Users/kamil/Downloads/zoo_semestralka/World.cpp
+World.h
+C:/Users/kamil/Downloads/zoo_semestralka/World.h
+
+C:/Users/kamil/Downloads/zoo_semestralka/World.h
+iostream
+-
+vector
+-
+Building.h
 C:/Users/kamil/Downloads/zoo_semestralka/Building.h
 
 C:/Users/kamil/Downloads/zoo_semestralka/main.cpp

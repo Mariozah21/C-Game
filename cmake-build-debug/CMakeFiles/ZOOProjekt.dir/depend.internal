@@ -16,6 +16,7 @@ CMakeFiles/ZOOProjekt.dir/GameEngine.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h
+ C:/Users/kamil/Downloads/zoo_semestralka/World.h
 CMakeFiles/ZOOProjekt.dir/Housing.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Housing.cpp
  C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
@@ -92,6 +93,10 @@ CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.cpp
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h
+CMakeFiles/ZOOProjekt.dir/World.cpp.obj
+ C:/Users/kamil/Downloads/zoo_semestralka/Building.h
+ C:/Users/kamil/Downloads/zoo_semestralka/World.cpp
+ C:/Users/kamil/Downloads/zoo_semestralka/World.h
 CMakeFiles/ZOOProjekt.dir/main.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Building.h
  C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.h
@@ -103,4 +108,5 @@ CMakeFiles/ZOOProjekt.dir/main.cpp.obj
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h
  C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h
+ C:/Users/kamil/Downloads/zoo_semestralka/World.h
  C:/Users/kamil/Downloads/zoo_semestralka/main.cpp

@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.obj"
   "CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.obj"
   "CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.obj"
+  "CMakeFiles/ZOOProjekt.dir/World.cpp.obj"
   "CMakeFiles/ZOOProjekt.dir/main.cpp.obj"
   "ZOOProjekt.exe"
   "ZOOProjekt.exe.manifest"
