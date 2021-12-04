@@ -7,9 +7,10 @@
 void GameEngine::hraj() {
     TownHall* th = new TownHall();
     GoldMine* gm = new GoldMine();
-    Building* b1 = new Building();
     std::cout << th->getGold() << std::endl;
     gm->generateResources();
     th->storeGold(gm->getResource());
     std::cout << th->getGold() << std::endl;
+    delete th;
+    delete gm;
 }

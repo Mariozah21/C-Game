@@ -11,6 +11,7 @@
 #include "Mines/GoldMine.h"
 #include "World.h"
 #include <iostream>
+#include <vector>
 
 class GameEngine {
 public:

@@ -16,8 +16,8 @@ void World::createMap() {
         }
     }
 }
-void World::placeBuilding(int row, int column, Building *b1) {
-    m_map.at(row).at(column) = b1;
+void World::placeBuilding(int row, int column, Building *b) {
+    m_map.at(row).at(column) = b;
 }
 
 void World::addRow() {

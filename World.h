@@ -17,7 +17,7 @@ public:
     void createMap ();
     void addRow ();
     void addColumn ();
-    void placeBuilding (int row, int column, Building *b1);
+    void placeBuilding (int row, int column, Building *b);
     void showMap ();
 };
 
