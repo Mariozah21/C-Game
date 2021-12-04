@@ -1,3 +1,0 @@
-C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/edit_cache.dir
-C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/ZOOProjekt.dir
-C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1/CMakeFiles/rebuild_cache.dir

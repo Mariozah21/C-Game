@@ -4,8 +4,11 @@
 
 #ifndef ZOOPROJEKT_GAMEENGINE_H
 #define ZOOPROJEKT_GAMEENGINE_H
-#include "GoldStorage.h"
-#include "GoldMine.h"
+#include "Storages/GoldStorage.h"
+#include "Storages/StoneStorage.h"
+#include "Storages/WoodStorage.h"
+#include "Storages/TownHall.h"
+#include "Mines/GoldMine.h"
 #include <iostream>
 
 class GameEngine {

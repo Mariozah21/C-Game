@@ -93,99 +93,99 @@ CMakeFiles\ZOOProjekt.dir\Building.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Building.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Building.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj: ..\Mines.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ZOOProjekt.dir/Mines.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.obj: ..\Mines\Mines.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ZOOProjekt.dir/Mines/Mines.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Mines.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Mines.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Mines\Mines.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\Mines.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Mines.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Mines.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Mines.cpp
+CMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Mines/Mines.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Mines\Mines.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\Mines.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Mines.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Mines/Mines.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Mines.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Mines.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Mines\Mines.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj: ..\GoldMine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ZOOProjekt.dir/GoldMine.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.obj: ..\Mines\GoldMine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ZOOProjekt.dir/Mines/GoldMine.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\GoldMine.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Mines\GoldMine.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/GoldMine.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\GoldMine.cpp
+CMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Mines/GoldMine.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Mines\GoldMine.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/GoldMine.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Mines/GoldMine.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\GoldMine.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\GoldMine.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Mines\GoldMine.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj: ..\Storage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ZOOProjekt.dir/Storage.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.obj: ..\Storages\Storage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Storage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Storage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Storages\Storage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\Storage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Storage.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Storage.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Storage.cpp
+CMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Storages\Storage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\Storage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Storage.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Storage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Storage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Storages\Storage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj: ..\StoneMine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ZOOProjekt.dir/StoneMine.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.obj: ..\Mines\StoneMine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ZOOProjekt.dir/Mines/StoneMine.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\StoneMine.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Mines\StoneMine.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/StoneMine.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\StoneMine.cpp
+CMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Mines/StoneMine.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Mines\StoneMine.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/StoneMine.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Mines/StoneMine.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\StoneMine.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\StoneMine.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Mines\StoneMine.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj: ..\LumberMill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ZOOProjekt.dir/LumberMill.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.obj: ..\Mines\LumberMill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ZOOProjekt.dir/Mines/LumberMill.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\LumberMill.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Mines\LumberMill.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/LumberMill.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\LumberMill.cpp
+CMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Mines/LumberMill.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Mines\LumberMill.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/LumberMill.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Mines/LumberMill.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\LumberMill.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\LumberMill.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Mines\LumberMill.cpp
 <<
 
 CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
@@ -207,80 +207,80 @@ CMakeFiles\ZOOProjekt.dir\Housing.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Housing.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Housing.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj: ..\TownHall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ZOOProjekt.dir/TownHall.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.obj: ..\Storages\TownHall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\TownHall.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Storages\TownHall.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\TownHall.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/TownHall.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\TownHall.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\TownHall.cpp
+CMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Storages\TownHall.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\TownHall.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/TownHall.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\TownHall.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\TownHall.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Storages\TownHall.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj: ..\WoodStorage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ZOOProjekt.dir/WoodStorage.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj: ..\Storages\WoodStorage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\WoodStorage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Storages\WoodStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/WoodStorage.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\WoodStorage.cpp
+CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Storages\WoodStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/WoodStorage.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\WoodStorage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Storages\WoodStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj: ..\StoneStorage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ZOOProjekt.dir/StoneStorage.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.obj: ..\Storages\StoneStorage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ZOOProjekt.dir/Storages/StoneStorage.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\StoneStorage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Storages\StoneStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/StoneStorage.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\StoneStorage.cpp
+CMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Storages/StoneStorage.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Storages\StoneStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/StoneStorage.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Storages/StoneStorage.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\StoneStorage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Storages\StoneStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
-CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj: ..\GoldStorage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ZOOProjekt.dir/GoldStorage.cpp.obj"
+CMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
+CMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.obj: ..\Storages\GoldStorage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ZOOProjekt.dir/Storages/GoldStorage.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\GoldStorage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.obj /FdCMakeFiles\ZOOProjekt.dir\ /FS -c C:\Users\kamil\Downloads\zoo_semestralka\Storages\GoldStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/GoldStorage.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\GoldStorage.cpp
+CMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZOOProjekt.dir/Storages/GoldStorage.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamil\Downloads\zoo_semestralka\Storages\GoldStorage.cpp
 <<
 
-CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/GoldStorage.cpp.s"
+CMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZOOProjekt.dir/Storages/GoldStorage.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\GoldStorage.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.s /c C:\Users\kamil\Downloads\zoo_semestralka\Storages\GoldStorage.cpp
 <<
 
 CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj: CMakeFiles\ZOOProjekt.dir\flags.make
@@ -306,16 +306,16 @@ CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.s: cmake_force
 ZOOProjekt_OBJECTS = \
 "CMakeFiles\ZOOProjekt.dir\main.cpp.obj" \
 "CMakeFiles\ZOOProjekt.dir\Building.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.obj" \
 "CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj" \
-"CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.obj" \
+"CMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.obj" \
 "CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj"
 
 # External object files for target ZOOProjekt
@@ -323,16 +323,16 @@ ZOOProjekt_EXTERNAL_OBJECTS =
 
 ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\main.cpp.obj
 ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Building.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Mines.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\GoldMine.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Storage.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\StoneMine.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\LumberMill.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Mines\Mines.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Mines\GoldMine.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Storages\Storage.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Mines\StoneMine.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Mines\LumberMill.cpp.obj
 ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Housing.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\TownHall.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\WoodStorage.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\StoneStorage.cpp.obj
-ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\GoldStorage.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Storages\TownHall.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Storages\WoodStorage.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Storages\StoneStorage.cpp.obj
+ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\Storages\GoldStorage.cpp.obj
 ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\GameEngine.cpp.obj
 ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\build.make
 ZOOProjekt.exe: CMakeFiles\ZOOProjekt.dir\objects1.rsp

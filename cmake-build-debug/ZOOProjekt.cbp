@@ -94,64 +94,64 @@
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.cpp">
-			<Option target="ZOOProjekt"/>
-		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldMine.h">
-			<Option target="ZOOProjekt"/>
-		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.cpp">
-			<Option target="ZOOProjekt"/>
-		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GoldStorage.h">
-			<Option target="ZOOProjekt"/>
-		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Housing.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Housing.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/GoldMine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/LumberMill.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/GoldMine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/LumberMill.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/LumberMill.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/StoneMine.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/Mines.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/StoneMine.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/Mines.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/StoneStorage.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/StoneMine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/StoneStorage.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/StoneMine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storage.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storage.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/TownHall.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/StoneStorage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/TownHall.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/StoneStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/WoodStorage.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/WoodStorage.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
 		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/main.cpp">

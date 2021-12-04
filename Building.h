@@ -9,7 +9,7 @@
 
 class Building{
 public:
-    int m_buildLevel = 1;
+    int buildLevel = 1;
 };
 
 

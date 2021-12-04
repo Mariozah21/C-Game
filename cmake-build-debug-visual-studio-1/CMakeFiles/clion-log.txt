@@ -1,4 +1,0 @@
-C:\Users\kamil\OneDrive\Plocha\clion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\kamil\Downloads\zoo_semestralka
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug-visual-studio-1
