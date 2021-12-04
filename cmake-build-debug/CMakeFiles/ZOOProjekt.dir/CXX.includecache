@@ -10,6 +10,10 @@ C:/Users/kamil/Downloads/zoo_semestralka/Building.h
 iostream
 -
 
+C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.cpp
+GameEngine.h
+C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.h
+
 C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.h
 Storages/GoldStorage.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.h
@@ -85,6 +89,10 @@ Storage.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 ../Building.h
 C:/Users/kamil/Downloads/zoo_semestralka/Building.h
+
+C:/Users/kamil/Downloads/zoo_semestralka/World.cpp
+World.h
+C:/Users/kamil/Downloads/zoo_semestralka/World.h
 
 C:/Users/kamil/Downloads/zoo_semestralka/World.h
 iostream

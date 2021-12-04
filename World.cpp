@@ -6,16 +6,13 @@
 World::World() {
     m_rows = 3;
     m_columns = 3;
-    createMap();
-}
-
-void World::createMap() {
+    std::vector<Building* > helpfulrow (m_columns, nullptr);
+    m_map.resize(m_rows);
     for (int i = 0; i < m_rows; ++i) {
-        for (int j = 0; j < m_columns; ++j) {
-            m_map[i][j] = 0;
-        }
+        m_map[i] = helpfulrow;
     }
 }
+
 void World::placeBuilding(int row, int column, Building *b) {
     m_map.at(row).at(column) = b;
 }
@@ -32,7 +29,7 @@ void World::addColumn() {
 void World::showMap() {
     for (int i = 0; i < m_rows; ++i) {
         for (int j = 0; j < m_columns; ++j) {
-            std::cout << m_map [i][j] << std::endl;
+            std::cout << m_map.at(i).at(j) << std::endl;
         }
     }
 }
