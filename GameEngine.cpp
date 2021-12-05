@@ -11,9 +11,6 @@ void GameEngine::hraj() {
     gm->generateResources();
     th->storeGold(gm->getResource());
     std::cout << th->getGold() << std::endl;
-    World* w = new World ();
-    w->showMap();
-    delete w;
     delete th;
     delete gm;
 }

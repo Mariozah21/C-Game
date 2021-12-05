@@ -29,8 +29,6 @@ World.h
 C:/Users/kamil/Downloads/zoo_semestralka/World.h
 iostream
 -
-vector
--
 
 C:/Users/kamil/Downloads/zoo_semestralka/Housing.h
 iostream
@@ -89,10 +87,6 @@ Storage.h
 C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h
 ../Building.h
 C:/Users/kamil/Downloads/zoo_semestralka/Building.h
-
-C:/Users/kamil/Downloads/zoo_semestralka/World.cpp
-World.h
-C:/Users/kamil/Downloads/zoo_semestralka/World.h
 
 C:/Users/kamil/Downloads/zoo_semestralka/World.h
 iostream
