@@ -12,31 +12,31 @@ std::string Storage::getId() {
 }
 
 void Storage::storeResources(int resourceQuantity, std::string id) {
-    TownHall townHall;
-    Mines mine;
-    resourceQuantity = mine.getResource();
+    TownHall* townHall;
+    Mines* mine;
+    resourceQuantity = mine->getResource();
     if (id == "GoldMine"){
-        if (townHall.checkGoldStorage(resourceQuantity) == true){
-            townHall.storeGold(resourceQuantity);
+        if (townHall->checkGoldStorage(resourceQuantity) == true){
+            townHall->storeGold(resourceQuantity);
         } else {
-            GoldStorage goldStorage;
-            goldStorage.storeGold(resourceQuantity);
+            GoldStorage* goldStorage;
+            goldStorage->storeGold(resourceQuantity);
         }
     }
     if (id == "StoneMine"){
-        if (townHall.checkStoneStorage(resourceQuantity) == true){
-            townHall.storeStone(resourceQuantity);
+        if (townHall->checkStoneStorage(resourceQuantity) == true){
+            townHall->storeStone(resourceQuantity);
         } else {
-            StoneStorage stoneStorage;
-            stoneStorage.storeStone(resourceQuantity);
+            StoneStorage* stoneStorage;
+            stoneStorage->storeStone(resourceQuantity);
         }
     }
     if (id == "LumberMill"){
-        if (townHall.checkWoodStorage(resourceQuantity) == true){
-            townHall.storeWood(resourceQuantity);
+        if (townHall->checkWoodStorage(resourceQuantity) == true){
+            townHall->storeWood(resourceQuantity);
         } else {
-            WoodStorage woodStorage;
-            woodStorage.storeWood(resourceQuantity);
+            WoodStorage* woodStorage;
+            woodStorage->storeWood(resourceQuantity);
         }
     }
 }
