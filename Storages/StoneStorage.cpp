@@ -40,3 +40,7 @@ int StoneStorage::getStone() {
 int StoneStorage::getMaxStored() {
     return m_maxStored;
 }
+
+void StoneStorage::setLevel() {
+    m_buildLevel++;
+}

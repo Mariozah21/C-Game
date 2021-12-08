@@ -20,6 +20,7 @@ public:
     void storeGold(int resourceQuantity);
     int getGold();
     int getMaxStored();
+    void setLevel();
 };
 
 

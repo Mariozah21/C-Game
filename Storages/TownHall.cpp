@@ -83,3 +83,7 @@ int TownHall::getMaxStone() {
 int TownHall::getMaxWood() {
     return m_maxWood;
 }
+
+void TownHall::setLevel() {
+    m_buildLevel++;
+}

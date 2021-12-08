@@ -44,3 +44,7 @@ int GoldStorage::getGold() {
 int GoldStorage::getMaxStored() {
     return m_maxStored;
 }
+
+void GoldStorage::setLevel() {
+    m_buildLevel++;
+}

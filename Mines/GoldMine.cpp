@@ -20,3 +20,7 @@ void GoldMine::generateResources() {
     Mines::generateResources(GoldMine::getId(), m_buildLevel);
 }
 
+void GoldMine::setLevel() {
+    m_buildLevel++;
+}
+

@@ -41,3 +41,7 @@ int WoodStorage::getWood() {
 int WoodStorage::getMaxStored() {
     return m_maxStored;
 }
+
+void WoodStorage::setLevel() {
+    m_buildLevel++;
+}

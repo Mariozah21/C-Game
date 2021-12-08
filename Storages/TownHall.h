@@ -33,6 +33,7 @@ public:
     int getMaxGold ();
     int getMaxStone ();
     int getMaxWood ();
+    void setLevel();
 };
 
 

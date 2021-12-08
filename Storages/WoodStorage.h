@@ -20,6 +20,7 @@ public:
     void storeWood (int resourceQuantity);
     int getWood();
     int getMaxStored();
+    void setLevel();
 };
 
 

@@ -24,6 +24,7 @@ public:
     void storeStone(int resourceQuantity);
     int getStone();
     int getMaxStored();
+    void setLevel();
 };
 
 #endif //ZOOPROJEKT_STONESTORAGE_H

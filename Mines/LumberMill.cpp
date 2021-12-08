@@ -19,3 +19,7 @@ int LumberMill::getBuildLevel() {
 void LumberMill::generateResources() {
     Mines::generateResources(LumberMill::getId(), m_buildLevel);
 }
+
+void LumberMill::setLevel() {
+    m_buildLevel++;
+}

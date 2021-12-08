@@ -12,6 +12,7 @@ class GoldMine : public Mines{
     int m_buildLevel;
 public:
     GoldMine();
+    void setLevel();
     std::string getId ();
     int getBuildLevel ();
     void generateResources (); // zavolání metody generateResources, aby se vygenerovalo zlato (až v implementaci)

@@ -19,3 +19,7 @@ int StoneMine::getBuildLevel() {
 void StoneMine::generateResources(){
     Mines::generateResources(StoneMine::getId(), m_buildLevel);
 };
+
+void StoneMine::setLevel() {
+    m_buildLevel++;
+}

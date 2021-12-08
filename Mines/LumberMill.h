@@ -16,6 +16,7 @@ public:
     std::string getId ();
     int getBuildLevel ();
     void generateResources (); // zavolání metody generateResources, aby se vygenerovalo dřevo (až v implementaci)
+    void setLevel();
 };
 
 
