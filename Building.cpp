@@ -5,6 +5,8 @@
 #include "Building.h"
 
 Building::Building(std::string type) {
+    m_maxBuildingLevel = 5;
+    m_buildLevel = 1;
     if(type=="GoldMine"){
         new GoldMine();
     }if(type=="StoneMine"){

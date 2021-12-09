@@ -4,7 +4,7 @@
 
 #include "Mines.h"
 
-Mines::Mines() {
+Mines::Mines(): Building("Mine") {
     m_id = "Mines";
     resource = 20;
 }

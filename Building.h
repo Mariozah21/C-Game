@@ -17,10 +17,11 @@
 
 
 class Building{
-    Building(std::string type);
-    int maxBuildingLevel = 5;
+
+    int m_maxBuildingLevel;
+    int m_buildLevel;
 public:
-    int buildLevel = 1;
+    Building(std::string type);
     //void buildBuilding(std::string type);
     void upgradeBuilding(std::string type, GoldMine *GM,StoneMine *SM,LumberMill *LM, TownHall *TH,GoldStorage *GS,StoneStorage *SS,WoodStorage *WS);
 };

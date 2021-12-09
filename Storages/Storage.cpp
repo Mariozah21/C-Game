@@ -3,8 +3,8 @@
 //
 
 #include "Storage.h"
-Storage::Storage() {
-    m_id = "Storage";
+Storage::Storage(): Building("Storage") {
+    m_id = "Storages";
 }
 
 std::string Storage::getId() {
