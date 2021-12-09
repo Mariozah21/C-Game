@@ -19,7 +19,7 @@ Building::Building(std::string type) {
 
 void Building::upgradeBuilding(std::string type,GoldMine *GM,StoneMine *SM,LumberMill *LM, TownHall *TH,GoldStorage *GS,StoneStorage *SS,WoodStorage *WS) {
     if(type=="GoldMine"){
-        if(GM->getBuildLevel()<maxBuildingLevel){
+        if(GM->getBuildLevel()<m_maxBuildingLevel){
             if(GM->getBuildLevel()<TH->getBuildLevel()){
                 std::cout<<
                 "To upgrade this Gold Mine level "<<GM->getBuildLevel()<<
@@ -34,7 +34,7 @@ void Building::upgradeBuilding(std::string type,GoldMine *GM,StoneMine *SM,Lumbe
            std::cout<<"Building is Max level"<<std::endl;;
         }
     }if(type=="StoneMine"){
-        if(SM->getBuildLevel()<maxBuildingLevel){
+        if(SM->getBuildLevel()<m_maxBuildingLevel){
             if(SM->getBuildLevel()<TH->getBuildLevel()){
                 std::cout<<
                 "To upgrade this Gold Mine level "<<SM->getBuildLevel()<<
@@ -49,7 +49,7 @@ void Building::upgradeBuilding(std::string type,GoldMine *GM,StoneMine *SM,Lumbe
             std::cout<<"Building is Max level";
         }
     }if(type=="LumberMill"){
-        if(LM->getBuildLevel()<maxBuildingLevel){
+        if(LM->getBuildLevel()<m_maxBuildingLevel){
             if(LM->getBuildLevel()<TH->getBuildLevel()){
                 std::cout<<
                      "To upgrade this Gold Mine level "<<LM->getBuildLevel()<<
@@ -64,7 +64,7 @@ void Building::upgradeBuilding(std::string type,GoldMine *GM,StoneMine *SM,Lumbe
             std::cout<<"Building is Max level";
         }
     }if(type=="TownHall"){
-        if(TH->getBuildLevel()<maxBuildingLevel){
+        if(TH->getBuildLevel()<m_maxBuildingLevel){
             std::cout<<
             "To upgrade this Gold Mine level "<<TH->getBuildLevel()<<
             " you need: \n Gold:"<<TH->getBuildLevel()*10<<
@@ -75,7 +75,7 @@ void Building::upgradeBuilding(std::string type,GoldMine *GM,StoneMine *SM,Lumbe
             std::cout<<"Building is Max level";
         }
     }if(type=="GoldStorage"){
-        if(GS->getBuildLevel()<maxBuildingLevel){
+        if(GS->getBuildLevel()<m_maxBuildingLevel){
             if(GS->getBuildLevel()<TH->getBuildLevel()){
                 std::cout<<
                 "To upgrade this Gold Mine level "<<GS->getBuildLevel()<<
@@ -90,7 +90,7 @@ void Building::upgradeBuilding(std::string type,GoldMine *GM,StoneMine *SM,Lumbe
             std::cout<<"Building is Max level";
         }
     }if(type=="StoneStorage"){
-        if(SS->getBuildLevel()<maxBuildingLevel){
+        if(SS->getBuildLevel()<m_maxBuildingLevel){
             if(SS->getBuildLevel()<TH->getBuildLevel()){
                 std::cout<<
                 "To upgrade this Gold Mine level "<<SS->getBuildLevel()<<
@@ -105,7 +105,7 @@ void Building::upgradeBuilding(std::string type,GoldMine *GM,StoneMine *SM,Lumbe
             std::cout<<"Building is Max level";
         }
     }if(type=="WoodStorage"){
-        if(WS->getBuildLevel()<maxBuildingLevel){
+        if(WS->getBuildLevel()<m_maxBuildingLevel){
             if(WS->getBuildLevel()<TH->getBuildLevel()){
                 std::cout<<
                 "To upgrade this Gold Mine level "<<WS->getBuildLevel()<<
