@@ -4,11 +4,13 @@
 
 #include "Building.h"
 
-
-
-void Building::buildBuilding(std::string type) {
+Building::Building(std::string type) {
     if(type=="GoldMine"){
-        new class GoldMine();
+        new GoldMine();
+    }if(type=="StoneMine"){
+        new StoneMine();
+    }if(type=="LumberMill"){
+        new LumberMill();
     }
 
 }

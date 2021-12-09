@@ -8,16 +8,17 @@
 #include <vector>
 #include "Building.h"
 
+
 class World {
     int m_rows;
     int m_columns;
-    std::vector<std::vector<Building *> > m_map;
+    std::vector<std::vector<building *> > m_map;
 public:
     World ();
-    void createMap ();
+    void createMap ();//nemusi to tu byt lebo sa mapa vytvara ked sa vola World();
     void addRow ();
     void addColumn ();
-    void placeBuilding (int row, int column, Building *b);
+    void placeBuilding (int row, int column, building *b);
     void showMap ();
 };
 
