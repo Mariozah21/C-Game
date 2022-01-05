@@ -13,12 +13,39 @@ std::string Mines::getId() {
     return m_id;
 }
 
-void Mines::generateResources(std::string id, int buildLevel) {
-    resource *= buildLevel; // výpočet pro generaci Surovin v závislosti na levelu budovy
-    /* zavolat metodu, aby se vygenerované suroviny uložili do storage
-     * píše to nějaký warning, asi to nevolám dobře*/;
+void Mines::changeState(EnumMine mineType) {
+    m_mineType = mineType;
+    if (m_type != nullptr){
+        delete m_type;
+    }
+
+    switch (m_mineType) {
+        case EnumMine::GoldMine:
+            break;
+        case EnumMine::LumberMill:
+            break;
+        case EnumMine::StoneMine:
+            break;
+        default:
+            std::cerr << "Unknown mine type!" << std::endl;
+            break;
+    }
+    makeChanges();
+}
+void Mines::makeChanges() {
+    setId(m_type->getId());
+    setBuildingLevel(m_type->getBuildLevel());
 }
 
-int Mines::getResource (){
+int Mines::generateResources() {
+    resource *= m_buildLevel;
     return resource;
+}
+
+void Mines::setId(std::string id) {
+    m_id = id;
+}
+
+void Mines::setBuildingLevel(int buildLevel) {
+    m_buildLevel = buildLevel;
 }

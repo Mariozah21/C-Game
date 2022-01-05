@@ -4,22 +4,14 @@
 
 #include "LumberMill.h"
 
-LumberMill::LumberMill() {
-    m_id = "LumberMill";
-    m_buildLevel = buildLevel;
-}
-
 std::string LumberMill::getId() {
-    return m_id;
+    return "LumberMill";
 }
 int LumberMill::getBuildLevel() {
     return m_buildLevel;
 }
 
-void LumberMill::generateResources() {
-    Mines::generateResources(LumberMill::getId(), m_buildLevel);
+void LumberMill::setLevel() {
+    m_buildLevel ++;
 }
 
-void LumberMill::setLevel() {
-    m_buildLevel++;
-}

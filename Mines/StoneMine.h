@@ -4,18 +4,13 @@
 
 #ifndef ZOOPROJEKT_STONEMINE_H
 #define ZOOPROJEKT_STONEMINE_H
-
-#include <iostream>
 #include "Mines.h"
 
-class StoneMine : public Mines{
-    std::string m_id;
-    int m_buildLevel;
+class StoneMine : public MineType{
+    int m_buildLevel = 1;
 public:
-    StoneMine();
-    std::string getId ();
-    int getBuildLevel ();
-    void generateResources (); // zavolání metody generateResources, aby se vygeneroval kámen (až v implementaci)
+    std::string getId() override;
+    int getBuildLevel() override;
     void setLevel();
 };
 

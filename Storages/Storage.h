@@ -14,11 +14,18 @@
 
 
 class Storage : public Building {
+    StorageType *m_type;
     std::string m_id;
+    int m_buildLevel;
+    EnumStorage m_storageType;
 public:
     Storage ();
     std::string getId ();
-    void storeResources (int resourceQuantity, std::string id);
+    void changeState (EnumStorage storageType);
+    void makeChanges ();
+    void storeResources ();
+    void setId (std::string id);
+    void setBuildingLevel (int buildLevel);
 };
 
 

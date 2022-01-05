@@ -4,166 +4,178 @@
 	<Project>
 		<Option title="ZOOProjekt"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug"/>
+				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug"/>
+				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ZOOProjekt">
-				<Option output="C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/ZOOProjekt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug"/>
+				<Option output="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/ZOOProjekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 ZOOProjekt"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZOOProjekt"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ZOOProjekt/fast">
-				<Option output="C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug/ZOOProjekt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug"/>
+				<Option output="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/ZOOProjekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 ZOOProjekt/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZOOProjekt/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka/cmake-build-debug"/>
+				<Option working_dir="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Building.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Building.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Building.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Building.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/GameEngine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/GameEngine.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/GameEngine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Housing.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Housing.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Housing.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Housing.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/GoldMine.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/EnumMine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/GoldMine.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/EnumMine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/LumberMill.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/GoldMine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/LumberMill.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/GoldMine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/Mines.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/LumberMill.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/Mines.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/LumberMill.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/StoneMine.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/MineType.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Mines/StoneMine.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/MineType.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/Mines.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/GoldStorage.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/Mines.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/StoneStorage.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/StoneMine.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/StoneStorage.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Mines/StoneMine.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/GoldStorage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/Storage.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/GoldStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/StoneStorage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/TownHall.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/StoneStorage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/Storage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/Storages/WoodStorage.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/Storage.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/World.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/TownHall.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/World.h">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/TownHall.h">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/main.cpp">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/WoodStorage.cpp">
 			<Option target="ZOOProjekt"/>
 		</Unit>
-		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka/CMakeLists.txt">
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/Storages/WoodStorage.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/World.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/World.h">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/main.cpp">
+			<Option target="ZOOProjekt"/>
+		</Unit>
+		<Unit filename="C:/Users/kamil/Downloads/zoo_semestralka - ORIGO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

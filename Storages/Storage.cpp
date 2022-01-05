@@ -14,7 +14,7 @@ std::string Storage::getId() {
 void Storage::storeResources(int resourceQuantity, std::string id) {
     TownHall* townHall;
     Mines* mine;
-    resourceQuantity = mine->getResource();
+    resourceQuantity = mine->generateResources();
     if (id == "GoldMine"){
         if (townHall->checkGoldStorage(resourceQuantity) == true){
             townHall->storeGold(resourceQuantity);

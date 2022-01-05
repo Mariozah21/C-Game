@@ -5,16 +5,12 @@
 #ifndef ZOOPROJEKT_GOLDMINE_H
 #define ZOOPROJEKT_GOLDMINE_H
 #include "Mines.h"
-#include "../Building.h"
 
-class GoldMine : public Mines{
-    std::string m_id;
-    int m_buildLevel;
+class GoldMine : public MineType{
+    int m_buildLevel = 1;
 public:
-    GoldMine();
-    std::string getId ();
-    int getBuildLevel ();
-    void generateResources (); // zavolání metody generateResources, aby se vygenerovalo zlato (až v implementaci)
+    std::string getId() override;
+    int getBuildLevel() override;
     void setLevel();
 };
 

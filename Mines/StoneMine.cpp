@@ -3,23 +3,14 @@
 //
 
 #include "StoneMine.h"
-StoneMine::StoneMine() {
-    m_id = "StoneMine";
-    m_buildLevel = buildLevel;
-}
 
 std::string StoneMine::getId() {
-    return m_id;
+    return "StoneMine";
 }
-
 int StoneMine::getBuildLevel() {
     return m_buildLevel;
 }
 
-void StoneMine::generateResources(){
-    Mines::generateResources(StoneMine::getId(), m_buildLevel);
-};
-
 void StoneMine::setLevel() {
-    m_buildLevel++;
+    m_buildLevel ++;
 }
