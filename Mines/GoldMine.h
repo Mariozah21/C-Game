@@ -1,18 +1,17 @@
 //
-// Created by kamil on 17.11.2021.
+// Created by kamil on 22.12.2021.
 //
 
-#ifndef ZOOPROJEKT_GOLDMINE_H
-#define ZOOPROJEKT_GOLDMINE_H
-#include "Mines.h"
+#ifndef TRY_GOLDMINE_H
+#define TRY_GOLDMINE_H
+#include "MineType.h"
 
 class GoldMine : public MineType{
-    int m_buildLevel = 1;
 public:
-    std::string getId() override;
-    int getBuildLevel() override;
-    void setLevel();
+    GoldMine ();
+    std::string getId ();
+    int getBuildLevel ();
 };
 
 
-#endif //ZOOPROJEKT_GOLDMINE_H
+#endif //TRY_GOLDMINE_H

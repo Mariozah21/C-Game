@@ -1,9 +1,9 @@
 #include <iostream>
-#include "GameEngine.h"
-
+#include "GameEngine/GameEngine.h"
 int main() {
-    GameEngine* hra = new GameEngine;
-    hra->hraj();
-    delete hra;
+    std::cout << "Welcome in this game!" << std::endl;
+    GameEngine *ge = new GameEngine();
+    ge->play();
+    delete ge;
     return 0;
 }

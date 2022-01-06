@@ -1,32 +1,46 @@
 //
-// Created by kamil on 03.12.2021.
+// Created by kamil on 23.12.2021.
 //
 
-#ifndef ZOOPROJEKT_STORAGE_H
-#define ZOOPROJEKT_STORAGE_H
+#ifndef TRY_STORAGE_H
+#define TRY_STORAGE_H
 #include <iostream>
-#include "../Building.h"
 #include "../Mines/Mines.h"
-#include "GoldStorage.h"
+#include "EnumStorage.h"
+#include "StorageType.h"
 #include "StoneStorage.h"
+#include "GoldStorage.h"
 #include "WoodStorage.h"
 #include "TownHall.h"
 
-
-class Storage : public Building {
-    StorageType *m_type;
-    std::string m_id;
-    int m_buildLevel;
-    EnumStorage m_storageType;
-public:
-    Storage ();
-    std::string getId ();
-    void changeState (EnumStorage storageType);
+class Storage {
     void makeChanges ();
-    void storeResources ();
+public:
+    int m_storedGold;
+    int m_storedStone;
+    int m_storedWood;
+    int m_maxGold;
+    int m_maxStone;
+    int m_maxWood;
+    EnumStorage m_enumStorage;
+    StorageType *m_type;
+    Storage (EnumStorage enumStorage);
+    void changeStorageType (EnumStorage enumStorage);
+    void setBuildLevel (int buildLevel);
     void setId (std::string id);
-    void setBuildingLevel (int buildLevel);
+    void upgradeLevel ();
+    int getBuildLevel ();
+    std::string getId ();
+    void storeResource (std::string id, int resourceQuantity);
+    int getStoredGold ();
+    int getStoredStone ();
+    int getStoredWood ();
+    void printGoldInfo ();
+    void printStoneInfo ();
+    void printWoodInfo ();
+    void printTownHallInfo ();
+    bool checkStorage (std::string id, int resourceQuantity);
 };
 
 
-#endif //ZOOPROJEKT_STORAGE_H
+#endif //TRY_STORAGE_H

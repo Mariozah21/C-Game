@@ -1,17 +1,9 @@
 //
-// Created by kamil on 17.11.2021.
+// Created by kamil on 23.12.2021.
 //
 
 #include "LumberMill.h"
-
-std::string LumberMill::getId() {
-    return "LumberMill";
+LumberMill::LumberMill() {
+    m_id = "LumberMill";
+    m_buildLevel = 1;
 }
-int LumberMill::getBuildLevel() {
-    return m_buildLevel;
-}
-
-void LumberMill::setLevel() {
-    m_buildLevel ++;
-}
-

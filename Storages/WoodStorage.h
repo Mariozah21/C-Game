@@ -1,27 +1,17 @@
 //
-// Created by kamil on 22.11.2021.
+// Created by kamil on 23.12.2021.
 //
 
-#ifndef ZOOPROJEKT_WOODSTORAGE_H
-#define ZOOPROJEKT_WOODSTORAGE_H
-#include "Storage.h"
-#include "../Building.h"
+#ifndef TRY_WOODSTORAGE_H
+#define TRY_WOODSTORAGE_H
+#include "StorageType.h"
 
-class WoodStorage{
-    std::string m_id;
-    int m_buildLevel;
-    int m_maxStored;
-    int m_storedWood;
+class WoodStorage : public StorageType{
 public:
-    WoodStorage();
+    WoodStorage ();
+    int getBuildLevel ();
     std::string getId ();
-    int getBuildLevel();
-    bool checkStorage (int resourceQuantity);
-    void storeWood (int resourceQuantity);
-    int getWood();
-    int getMaxStored();
-    void setLevel();
 };
 
 
-#endif //ZOOPROJEKT_WOODSTORAGE_H
+#endif //TRY_WOODSTORAGE_H

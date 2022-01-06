@@ -1,30 +1,18 @@
 //
-// Created by kamil on 22.11.2021.
+// Created by kamil on 23.12.2021.
 //
 
-#ifndef ZOOPROJEKT_STONESTORAGE_H
-#define ZOOPROJEKT_STONESTORAGE_H
-#include "Storage.h"
-#include "../Building.h"
+#ifndef TRY_STONESTORAGE_H
+#define TRY_STONESTORAGE_H
 
-class StoneStorage{
-    std::string m_id;
-    int m_buildLevel;
-    int m_maxStored;
-    int m_storedStone;
+#include "StorageType.h"
+
+class StoneStorage : public StorageType{
 public:
     StoneStorage();
-
-    std::string getId();
-
-    int getBuildLevel();
-
-    bool checkStorage(int resourceQuantity);
-
-    void storeStone(int resourceQuantity);
-    int getStone();
-    int getMaxStored();
-    void setLevel();
+    int getBuildLevel ();
+    std::string getId ();
 };
 
-#endif //ZOOPROJEKT_STONESTORAGE_H
+
+#endif //TRY_STONESTORAGE_H

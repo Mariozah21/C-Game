@@ -1,40 +1,17 @@
-
 //
-// Created by kamil on 17.11.2021.
+// Created by kamil on 28.12.2021.
 //
 
-#ifndef ZOOPROJEKT_TOWNHALL_H
-#define ZOOPROJEKT_TOWNHALL_H
-#include "Storage.h"
-#include "../Building.h"
+#ifndef TRY_TOWNHALL_H
+#define TRY_TOWNHALL_H
+#include "StorageType.h"
 
-class TownHall{
-    std::string m_id;
-    int m_buildLevel;
-    int m_storedGold;
-    int m_storedStone;
-    int m_storedWood;
-    int m_maxGold;
-    int m_maxStone;
-    int m_maxWood;
+class TownHall : public StorageType{
 public:
     TownHall ();
-    std::string getId ();
     int getBuildLevel ();
-    bool checkGoldStorage (int resourceQuantity);
-    bool checkStoneStorage (int resourceQuantity);
-    bool checkWoodStorage (int resourceQuantity);
-    void storeGold (int resourceQuantity);
-    void storeStone (int resourceQuantity);
-    void storeWood (int resourceQuantity);
-    int getGold ();
-    int getStone ();
-    int getWood ();
-    int getMaxGold ();
-    int getMaxStone ();
-    int getMaxWood ();
-    void setLevel();
+    std::string getId ();
 };
 
 
-#endif //ZOOPROJEKT_TOWNHALL_H
+#endif //TRY_TOWNHALL_H

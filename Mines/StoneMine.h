@@ -1,18 +1,17 @@
 //
-// Created by kamil on 17.11.2021.
+// Created by kamil on 23.12.2021.
 //
 
-#ifndef ZOOPROJEKT_STONEMINE_H
-#define ZOOPROJEKT_STONEMINE_H
-#include "Mines.h"
+#ifndef TRY_STONEMINE_H
+#define TRY_STONEMINE_H
+#include "MineType.h"
 
 class StoneMine : public MineType{
-    int m_buildLevel = 1;
 public:
-    std::string getId() override;
-    int getBuildLevel() override;
-    void setLevel();
+    StoneMine ();
+    std::string getId ();
+    int getBuildLevel ();
 };
 
 
-#endif //ZOOPROJEKT_STONEMINE_H
+#endif //TRY_STONEMINE_H

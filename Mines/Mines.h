@@ -1,29 +1,33 @@
 //
-// Created by kamil on 17.11.2021.
+// Created by kamil on 23.12.2021.
 //
-#ifndef ZOOPROJEKT_MINES_H
-#define ZOOPROJEKT_MINES_H
+
+#ifndef TRY_MINES_H
+#define TRY_MINES_H
 #include <iostream>
-#include "../Building.h"
-#include "../Housing.h"
 #include "EnumMine.h"
 #include "MineType.h"
+#include "GoldMine.h"
+#include "StoneMine.h"
+#include "LumberMill.h"
 
-class Mines: public Building{
-    MineType *m_type;
-    std::string m_id;
-    int m_buildLevel;
-    int resource;
-    EnumMine m_mineType;
+class Mines {
+    void makeChanges();
 public:
-    Mines ();
-    std::string getId ();
-    void changeState (EnumMine mineType);
-    void makeChanges ();
-    int generateResources ();
+    int m_resource = 20;
+    EnumMine m_enumMine;
+    MineType *m_type;
+    Mines(EnumMine enumMine);
+    void changeMineType (EnumMine enumMine);
     void setId (std::string id);
-    void setBuildingLevel (int buildLevel);
+    void setBuildLevel (int buildLevel);
+    void upgradeLevel ();
+    std::string getId ();
+    int getBuildLevel ();
+    void generateResource ();
+    int getResource ();
+    void printInfo ();
 };
 
 
-#endif //ZOOPROJEKT_MINES_H
+#endif //TRY_MINES_H

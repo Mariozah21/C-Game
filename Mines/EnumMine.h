@@ -1,13 +1,14 @@
 //
-// Created by kamil on 16.12.2021.
+// Created by kamil on 23.12.2021.
 //
 
-#ifndef ZOOPROJEKT_ENUMMINE_H
-#define ZOOPROJEKT_ENUMMINE_H
+#ifndef TRY_ENUMMINE_H
+#define TRY_ENUMMINE_H
+
 
 enum class EnumMine {
-    GoldMine, LumberMill, StoneMine
+    GoldMine, StoneMine,LumberMill
 };
 
 
-#endif //ZOOPROJEKT_ENUMMINE_H
+#endif //TRY_ENUMMINE_H

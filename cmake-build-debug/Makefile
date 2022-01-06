@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\kamil\Downloads\zoo_semestralka - ORIGO"
+CMAKE_SOURCE_DIR = C:\Users\kamil\Downloads\zoo_semestralka
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\kamil\Downloads\zoo_semestralka - ORIGO\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\kamil\Downloads\zoo_semestralka - ORIGO\cmake-build-debug\CMakeFiles" "C:\Users\kamil\Downloads\zoo_semestralka - ORIGO\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\kamil\Downloads\zoo_semestralka - ORIGO\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kamil\Downloads\zoo_semestralka\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,120 +116,360 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ZOOProjekt
+# Target rules for targets named try
 
 # Build rule for target.
-ZOOProjekt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ZOOProjekt
-.PHONY : ZOOProjekt
+try: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 try
+.PHONY : try
 
 # fast build rule for target.
-ZOOProjekt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/build
-.PHONY : ZOOProjekt/fast
+try/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/build
+.PHONY : try/fast
 
-Building.obj: Building.cpp.obj
-.PHONY : Building.obj
-
-# target to build an object file
-Building.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Building.cpp.obj
-.PHONY : Building.cpp.obj
-
-Building.i: Building.cpp.i
-.PHONY : Building.i
-
-# target to preprocess a source file
-Building.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Building.cpp.i
-.PHONY : Building.cpp.i
-
-Building.s: Building.cpp.s
-.PHONY : Building.s
-
-# target to generate assembly for a file
-Building.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Building.cpp.s
-.PHONY : Building.cpp.s
-
-GameEngine.obj: GameEngine.cpp.obj
-.PHONY : GameEngine.obj
+GameEngine/BuildBuilding.obj: GameEngine/BuildBuilding.cpp.obj
+.PHONY : GameEngine/BuildBuilding.obj
 
 # target to build an object file
-GameEngine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/GameEngine.cpp.obj
-.PHONY : GameEngine.cpp.obj
+GameEngine/BuildBuilding.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/BuildBuilding.cpp.obj
+.PHONY : GameEngine/BuildBuilding.cpp.obj
 
-GameEngine.i: GameEngine.cpp.i
-.PHONY : GameEngine.i
+GameEngine/BuildBuilding.i: GameEngine/BuildBuilding.cpp.i
+.PHONY : GameEngine/BuildBuilding.i
 
 # target to preprocess a source file
-GameEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/GameEngine.cpp.i
-.PHONY : GameEngine.cpp.i
+GameEngine/BuildBuilding.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/BuildBuilding.cpp.i
+.PHONY : GameEngine/BuildBuilding.cpp.i
 
-GameEngine.s: GameEngine.cpp.s
-.PHONY : GameEngine.s
+GameEngine/BuildBuilding.s: GameEngine/BuildBuilding.cpp.s
+.PHONY : GameEngine/BuildBuilding.s
 
 # target to generate assembly for a file
-GameEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/GameEngine.cpp.s
-.PHONY : GameEngine.cpp.s
+GameEngine/BuildBuilding.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/BuildBuilding.cpp.s
+.PHONY : GameEngine/BuildBuilding.cpp.s
 
-Housing.obj: Housing.cpp.obj
-.PHONY : Housing.obj
+GameEngine/BuildInfo.obj: GameEngine/BuildInfo.cpp.obj
+.PHONY : GameEngine/BuildInfo.obj
 
 # target to build an object file
-Housing.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Housing.cpp.obj
-.PHONY : Housing.cpp.obj
+GameEngine/BuildInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/BuildInfo.cpp.obj
+.PHONY : GameEngine/BuildInfo.cpp.obj
 
-Housing.i: Housing.cpp.i
-.PHONY : Housing.i
+GameEngine/BuildInfo.i: GameEngine/BuildInfo.cpp.i
+.PHONY : GameEngine/BuildInfo.i
 
 # target to preprocess a source file
-Housing.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Housing.cpp.i
-.PHONY : Housing.cpp.i
+GameEngine/BuildInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/BuildInfo.cpp.i
+.PHONY : GameEngine/BuildInfo.cpp.i
 
-Housing.s: Housing.cpp.s
-.PHONY : Housing.s
+GameEngine/BuildInfo.s: GameEngine/BuildInfo.cpp.s
+.PHONY : GameEngine/BuildInfo.s
 
 # target to generate assembly for a file
-Housing.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Housing.cpp.s
-.PHONY : Housing.cpp.s
+GameEngine/BuildInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/BuildInfo.cpp.s
+.PHONY : GameEngine/BuildInfo.cpp.s
 
-Mines/EnumMine.obj: Mines/EnumMine.cpp.obj
-.PHONY : Mines/EnumMine.obj
+GameEngine/GameEngine.obj: GameEngine/GameEngine.cpp.obj
+.PHONY : GameEngine/GameEngine.obj
 
 # target to build an object file
-Mines/EnumMine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/EnumMine.cpp.obj
-.PHONY : Mines/EnumMine.cpp.obj
+GameEngine/GameEngine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/GameEngine.cpp.obj
+.PHONY : GameEngine/GameEngine.cpp.obj
 
-Mines/EnumMine.i: Mines/EnumMine.cpp.i
-.PHONY : Mines/EnumMine.i
+GameEngine/GameEngine.i: GameEngine/GameEngine.cpp.i
+.PHONY : GameEngine/GameEngine.i
 
 # target to preprocess a source file
-Mines/EnumMine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/EnumMine.cpp.i
-.PHONY : Mines/EnumMine.cpp.i
+GameEngine/GameEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/GameEngine.cpp.i
+.PHONY : GameEngine/GameEngine.cpp.i
 
-Mines/EnumMine.s: Mines/EnumMine.cpp.s
-.PHONY : Mines/EnumMine.s
+GameEngine/GameEngine.s: GameEngine/GameEngine.cpp.s
+.PHONY : GameEngine/GameEngine.s
 
 # target to generate assembly for a file
-Mines/EnumMine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/EnumMine.cpp.s
-.PHONY : Mines/EnumMine.cpp.s
+GameEngine/GameEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/GameEngine.cpp.s
+.PHONY : GameEngine/GameEngine.cpp.s
+
+GameEngine/GenerateResource.obj: GameEngine/GenerateResource.cpp.obj
+.PHONY : GameEngine/GenerateResource.obj
+
+# target to build an object file
+GameEngine/GenerateResource.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/GenerateResource.cpp.obj
+.PHONY : GameEngine/GenerateResource.cpp.obj
+
+GameEngine/GenerateResource.i: GameEngine/GenerateResource.cpp.i
+.PHONY : GameEngine/GenerateResource.i
+
+# target to preprocess a source file
+GameEngine/GenerateResource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/GenerateResource.cpp.i
+.PHONY : GameEngine/GenerateResource.cpp.i
+
+GameEngine/GenerateResource.s: GameEngine/GenerateResource.cpp.s
+.PHONY : GameEngine/GenerateResource.s
+
+# target to generate assembly for a file
+GameEngine/GenerateResource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/GenerateResource.cpp.s
+.PHONY : GameEngine/GenerateResource.cpp.s
+
+GameEngine/PrintBuildingInfo.obj: GameEngine/PrintBuildingInfo.cpp.obj
+.PHONY : GameEngine/PrintBuildingInfo.obj
+
+# target to build an object file
+GameEngine/PrintBuildingInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/PrintBuildingInfo.cpp.obj
+.PHONY : GameEngine/PrintBuildingInfo.cpp.obj
+
+GameEngine/PrintBuildingInfo.i: GameEngine/PrintBuildingInfo.cpp.i
+.PHONY : GameEngine/PrintBuildingInfo.i
+
+# target to preprocess a source file
+GameEngine/PrintBuildingInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/PrintBuildingInfo.cpp.i
+.PHONY : GameEngine/PrintBuildingInfo.cpp.i
+
+GameEngine/PrintBuildingInfo.s: GameEngine/PrintBuildingInfo.cpp.s
+.PHONY : GameEngine/PrintBuildingInfo.s
+
+# target to generate assembly for a file
+GameEngine/PrintBuildingInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/PrintBuildingInfo.cpp.s
+.PHONY : GameEngine/PrintBuildingInfo.cpp.s
+
+GameEngine/PrintFullInfo.obj: GameEngine/PrintFullInfo.cpp.obj
+.PHONY : GameEngine/PrintFullInfo.obj
+
+# target to build an object file
+GameEngine/PrintFullInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/PrintFullInfo.cpp.obj
+.PHONY : GameEngine/PrintFullInfo.cpp.obj
+
+GameEngine/PrintFullInfo.i: GameEngine/PrintFullInfo.cpp.i
+.PHONY : GameEngine/PrintFullInfo.i
+
+# target to preprocess a source file
+GameEngine/PrintFullInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/PrintFullInfo.cpp.i
+.PHONY : GameEngine/PrintFullInfo.cpp.i
+
+GameEngine/PrintFullInfo.s: GameEngine/PrintFullInfo.cpp.s
+.PHONY : GameEngine/PrintFullInfo.s
+
+# target to generate assembly for a file
+GameEngine/PrintFullInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/PrintFullInfo.cpp.s
+.PHONY : GameEngine/PrintFullInfo.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeGoldMine.obj: GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldMine.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeGoldMine.i: GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldMine.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeGoldMine.s: GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldMine.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldMine.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeGoldStorage.obj: GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldStorage.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeGoldStorage.i: GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldStorage.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeGoldStorage.s: GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldStorage.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeGoldStorage.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeInfo.obj: GameEngine/UpgradeBuilding/UpgradeInfo.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeInfo.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeInfo.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeInfo.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeInfo.i: GameEngine/UpgradeBuilding/UpgradeInfo.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeInfo.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeInfo.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeInfo.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeInfo.s: GameEngine/UpgradeBuilding/UpgradeInfo.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeInfo.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeInfo.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeInfo.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeLumberMill.obj: GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeLumberMill.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeLumberMill.i: GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeLumberMill.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeLumberMill.s: GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeLumberMill.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeLumberMill.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeStoneMine.obj: GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneMine.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeStoneMine.i: GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneMine.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeStoneMine.s: GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneMine.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneMine.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeStoneStorage.obj: GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneStorage.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeStoneStorage.i: GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneStorage.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeStoneStorage.s: GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneStorage.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeStoneStorage.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeTownHall.obj: GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeTownHall.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeTownHall.i: GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeTownHall.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeTownHall.s: GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeTownHall.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeTownHall.cpp.s
+
+GameEngine/UpgradeBuilding/UpgradeWoodStorage.obj: GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeWoodStorage.obj
+
+# target to build an object file
+GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.obj
+.PHONY : GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.obj
+
+GameEngine/UpgradeBuilding/UpgradeWoodStorage.i: GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeWoodStorage.i
+
+# target to preprocess a source file
+GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.i
+.PHONY : GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.i
+
+GameEngine/UpgradeBuilding/UpgradeWoodStorage.s: GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeWoodStorage.s
+
+# target to generate assembly for a file
+GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.s
+.PHONY : GameEngine/UpgradeBuilding/UpgradeWoodStorage.cpp.s
 
 Mines/GoldMine.obj: Mines/GoldMine.cpp.obj
 .PHONY : Mines/GoldMine.obj
 
 # target to build an object file
 Mines/GoldMine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/GoldMine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/GoldMine.cpp.obj
 .PHONY : Mines/GoldMine.cpp.obj
 
 Mines/GoldMine.i: Mines/GoldMine.cpp.i
@@ -237,7 +477,7 @@ Mines/GoldMine.i: Mines/GoldMine.cpp.i
 
 # target to preprocess a source file
 Mines/GoldMine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/GoldMine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/GoldMine.cpp.i
 .PHONY : Mines/GoldMine.cpp.i
 
 Mines/GoldMine.s: Mines/GoldMine.cpp.s
@@ -245,7 +485,7 @@ Mines/GoldMine.s: Mines/GoldMine.cpp.s
 
 # target to generate assembly for a file
 Mines/GoldMine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/GoldMine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/GoldMine.cpp.s
 .PHONY : Mines/GoldMine.cpp.s
 
 Mines/LumberMill.obj: Mines/LumberMill.cpp.obj
@@ -253,7 +493,7 @@ Mines/LumberMill.obj: Mines/LumberMill.cpp.obj
 
 # target to build an object file
 Mines/LumberMill.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/LumberMill.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/LumberMill.cpp.obj
 .PHONY : Mines/LumberMill.cpp.obj
 
 Mines/LumberMill.i: Mines/LumberMill.cpp.i
@@ -261,7 +501,7 @@ Mines/LumberMill.i: Mines/LumberMill.cpp.i
 
 # target to preprocess a source file
 Mines/LumberMill.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/LumberMill.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/LumberMill.cpp.i
 .PHONY : Mines/LumberMill.cpp.i
 
 Mines/LumberMill.s: Mines/LumberMill.cpp.s
@@ -269,7 +509,7 @@ Mines/LumberMill.s: Mines/LumberMill.cpp.s
 
 # target to generate assembly for a file
 Mines/LumberMill.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/LumberMill.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/LumberMill.cpp.s
 .PHONY : Mines/LumberMill.cpp.s
 
 Mines/MineType.obj: Mines/MineType.cpp.obj
@@ -277,7 +517,7 @@ Mines/MineType.obj: Mines/MineType.cpp.obj
 
 # target to build an object file
 Mines/MineType.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/MineType.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/MineType.cpp.obj
 .PHONY : Mines/MineType.cpp.obj
 
 Mines/MineType.i: Mines/MineType.cpp.i
@@ -285,7 +525,7 @@ Mines/MineType.i: Mines/MineType.cpp.i
 
 # target to preprocess a source file
 Mines/MineType.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/MineType.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/MineType.cpp.i
 .PHONY : Mines/MineType.cpp.i
 
 Mines/MineType.s: Mines/MineType.cpp.s
@@ -293,7 +533,7 @@ Mines/MineType.s: Mines/MineType.cpp.s
 
 # target to generate assembly for a file
 Mines/MineType.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/MineType.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/MineType.cpp.s
 .PHONY : Mines/MineType.cpp.s
 
 Mines/Mines.obj: Mines/Mines.cpp.obj
@@ -301,7 +541,7 @@ Mines/Mines.obj: Mines/Mines.cpp.obj
 
 # target to build an object file
 Mines/Mines.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/Mines.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/Mines.cpp.obj
 .PHONY : Mines/Mines.cpp.obj
 
 Mines/Mines.i: Mines/Mines.cpp.i
@@ -309,7 +549,7 @@ Mines/Mines.i: Mines/Mines.cpp.i
 
 # target to preprocess a source file
 Mines/Mines.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/Mines.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/Mines.cpp.i
 .PHONY : Mines/Mines.cpp.i
 
 Mines/Mines.s: Mines/Mines.cpp.s
@@ -317,7 +557,7 @@ Mines/Mines.s: Mines/Mines.cpp.s
 
 # target to generate assembly for a file
 Mines/Mines.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/Mines.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/Mines.cpp.s
 .PHONY : Mines/Mines.cpp.s
 
 Mines/StoneMine.obj: Mines/StoneMine.cpp.obj
@@ -325,7 +565,7 @@ Mines/StoneMine.obj: Mines/StoneMine.cpp.obj
 
 # target to build an object file
 Mines/StoneMine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/StoneMine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/StoneMine.cpp.obj
 .PHONY : Mines/StoneMine.cpp.obj
 
 Mines/StoneMine.i: Mines/StoneMine.cpp.i
@@ -333,7 +573,7 @@ Mines/StoneMine.i: Mines/StoneMine.cpp.i
 
 # target to preprocess a source file
 Mines/StoneMine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/StoneMine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/StoneMine.cpp.i
 .PHONY : Mines/StoneMine.cpp.i
 
 Mines/StoneMine.s: Mines/StoneMine.cpp.s
@@ -341,7 +581,7 @@ Mines/StoneMine.s: Mines/StoneMine.cpp.s
 
 # target to generate assembly for a file
 Mines/StoneMine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Mines/StoneMine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Mines/StoneMine.cpp.s
 .PHONY : Mines/StoneMine.cpp.s
 
 Storages/GoldStorage.obj: Storages/GoldStorage.cpp.obj
@@ -349,7 +589,7 @@ Storages/GoldStorage.obj: Storages/GoldStorage.cpp.obj
 
 # target to build an object file
 Storages/GoldStorage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/GoldStorage.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/GoldStorage.cpp.obj
 .PHONY : Storages/GoldStorage.cpp.obj
 
 Storages/GoldStorage.i: Storages/GoldStorage.cpp.i
@@ -357,7 +597,7 @@ Storages/GoldStorage.i: Storages/GoldStorage.cpp.i
 
 # target to preprocess a source file
 Storages/GoldStorage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/GoldStorage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/GoldStorage.cpp.i
 .PHONY : Storages/GoldStorage.cpp.i
 
 Storages/GoldStorage.s: Storages/GoldStorage.cpp.s
@@ -365,7 +605,7 @@ Storages/GoldStorage.s: Storages/GoldStorage.cpp.s
 
 # target to generate assembly for a file
 Storages/GoldStorage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/GoldStorage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/GoldStorage.cpp.s
 .PHONY : Storages/GoldStorage.cpp.s
 
 Storages/StoneStorage.obj: Storages/StoneStorage.cpp.obj
@@ -373,7 +613,7 @@ Storages/StoneStorage.obj: Storages/StoneStorage.cpp.obj
 
 # target to build an object file
 Storages/StoneStorage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/StoneStorage.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/StoneStorage.cpp.obj
 .PHONY : Storages/StoneStorage.cpp.obj
 
 Storages/StoneStorage.i: Storages/StoneStorage.cpp.i
@@ -381,7 +621,7 @@ Storages/StoneStorage.i: Storages/StoneStorage.cpp.i
 
 # target to preprocess a source file
 Storages/StoneStorage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/StoneStorage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/StoneStorage.cpp.i
 .PHONY : Storages/StoneStorage.cpp.i
 
 Storages/StoneStorage.s: Storages/StoneStorage.cpp.s
@@ -389,7 +629,7 @@ Storages/StoneStorage.s: Storages/StoneStorage.cpp.s
 
 # target to generate assembly for a file
 Storages/StoneStorage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/StoneStorage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/StoneStorage.cpp.s
 .PHONY : Storages/StoneStorage.cpp.s
 
 Storages/Storage.obj: Storages/Storage.cpp.obj
@@ -397,7 +637,7 @@ Storages/Storage.obj: Storages/Storage.cpp.obj
 
 # target to build an object file
 Storages/Storage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/Storage.cpp.obj
 .PHONY : Storages/Storage.cpp.obj
 
 Storages/Storage.i: Storages/Storage.cpp.i
@@ -405,7 +645,7 @@ Storages/Storage.i: Storages/Storage.cpp.i
 
 # target to preprocess a source file
 Storages/Storage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/Storage.cpp.i
 .PHONY : Storages/Storage.cpp.i
 
 Storages/Storage.s: Storages/Storage.cpp.s
@@ -413,15 +653,39 @@ Storages/Storage.s: Storages/Storage.cpp.s
 
 # target to generate assembly for a file
 Storages/Storage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/Storage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/Storage.cpp.s
 .PHONY : Storages/Storage.cpp.s
+
+Storages/StorageType.obj: Storages/StorageType.cpp.obj
+.PHONY : Storages/StorageType.obj
+
+# target to build an object file
+Storages/StorageType.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/StorageType.cpp.obj
+.PHONY : Storages/StorageType.cpp.obj
+
+Storages/StorageType.i: Storages/StorageType.cpp.i
+.PHONY : Storages/StorageType.i
+
+# target to preprocess a source file
+Storages/StorageType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/StorageType.cpp.i
+.PHONY : Storages/StorageType.cpp.i
+
+Storages/StorageType.s: Storages/StorageType.cpp.s
+.PHONY : Storages/StorageType.s
+
+# target to generate assembly for a file
+Storages/StorageType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/StorageType.cpp.s
+.PHONY : Storages/StorageType.cpp.s
 
 Storages/TownHall.obj: Storages/TownHall.cpp.obj
 .PHONY : Storages/TownHall.obj
 
 # target to build an object file
 Storages/TownHall.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/TownHall.cpp.obj
 .PHONY : Storages/TownHall.cpp.obj
 
 Storages/TownHall.i: Storages/TownHall.cpp.i
@@ -429,7 +693,7 @@ Storages/TownHall.i: Storages/TownHall.cpp.i
 
 # target to preprocess a source file
 Storages/TownHall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/TownHall.cpp.i
 .PHONY : Storages/TownHall.cpp.i
 
 Storages/TownHall.s: Storages/TownHall.cpp.s
@@ -437,7 +701,7 @@ Storages/TownHall.s: Storages/TownHall.cpp.s
 
 # target to generate assembly for a file
 Storages/TownHall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/TownHall.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/TownHall.cpp.s
 .PHONY : Storages/TownHall.cpp.s
 
 Storages/WoodStorage.obj: Storages/WoodStorage.cpp.obj
@@ -445,7 +709,7 @@ Storages/WoodStorage.obj: Storages/WoodStorage.cpp.obj
 
 # target to build an object file
 Storages/WoodStorage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/WoodStorage.cpp.obj
 .PHONY : Storages/WoodStorage.cpp.obj
 
 Storages/WoodStorage.i: Storages/WoodStorage.cpp.i
@@ -453,7 +717,7 @@ Storages/WoodStorage.i: Storages/WoodStorage.cpp.i
 
 # target to preprocess a source file
 Storages/WoodStorage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/WoodStorage.cpp.i
 .PHONY : Storages/WoodStorage.cpp.i
 
 Storages/WoodStorage.s: Storages/WoodStorage.cpp.s
@@ -461,39 +725,15 @@ Storages/WoodStorage.s: Storages/WoodStorage.cpp.s
 
 # target to generate assembly for a file
 Storages/WoodStorage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/Storages/WoodStorage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/Storages/WoodStorage.cpp.s
 .PHONY : Storages/WoodStorage.cpp.s
-
-World.obj: World.cpp.obj
-.PHONY : World.obj
-
-# target to build an object file
-World.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/World.cpp.obj
-.PHONY : World.cpp.obj
-
-World.i: World.cpp.i
-.PHONY : World.i
-
-# target to preprocess a source file
-World.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/World.cpp.i
-.PHONY : World.cpp.i
-
-World.s: World.cpp.s
-.PHONY : World.s
-
-# target to generate assembly for a file
-World.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/World.cpp.s
-.PHONY : World.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -501,7 +741,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -509,7 +749,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ZOOProjekt.dir\build.make CMakeFiles/ZOOProjekt.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\try.dir\build.make CMakeFiles/try.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -520,19 +760,49 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ZOOProjekt
-	@echo ... Building.obj
-	@echo ... Building.i
-	@echo ... Building.s
-	@echo ... GameEngine.obj
-	@echo ... GameEngine.i
-	@echo ... GameEngine.s
-	@echo ... Housing.obj
-	@echo ... Housing.i
-	@echo ... Housing.s
-	@echo ... Mines/EnumMine.obj
-	@echo ... Mines/EnumMine.i
-	@echo ... Mines/EnumMine.s
+	@echo ... try
+	@echo ... GameEngine/BuildBuilding.obj
+	@echo ... GameEngine/BuildBuilding.i
+	@echo ... GameEngine/BuildBuilding.s
+	@echo ... GameEngine/BuildInfo.obj
+	@echo ... GameEngine/BuildInfo.i
+	@echo ... GameEngine/BuildInfo.s
+	@echo ... GameEngine/GameEngine.obj
+	@echo ... GameEngine/GameEngine.i
+	@echo ... GameEngine/GameEngine.s
+	@echo ... GameEngine/GenerateResource.obj
+	@echo ... GameEngine/GenerateResource.i
+	@echo ... GameEngine/GenerateResource.s
+	@echo ... GameEngine/PrintBuildingInfo.obj
+	@echo ... GameEngine/PrintBuildingInfo.i
+	@echo ... GameEngine/PrintBuildingInfo.s
+	@echo ... GameEngine/PrintFullInfo.obj
+	@echo ... GameEngine/PrintFullInfo.i
+	@echo ... GameEngine/PrintFullInfo.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeGoldMine.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeGoldMine.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeGoldMine.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeGoldStorage.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeGoldStorage.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeGoldStorage.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeInfo.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeInfo.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeInfo.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeLumberMill.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeLumberMill.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeLumberMill.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeStoneMine.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeStoneMine.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeStoneMine.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeStoneStorage.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeStoneStorage.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeStoneStorage.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeTownHall.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeTownHall.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeTownHall.s
+	@echo ... GameEngine/UpgradeBuilding/UpgradeWoodStorage.obj
+	@echo ... GameEngine/UpgradeBuilding/UpgradeWoodStorage.i
+	@echo ... GameEngine/UpgradeBuilding/UpgradeWoodStorage.s
 	@echo ... Mines/GoldMine.obj
 	@echo ... Mines/GoldMine.i
 	@echo ... Mines/GoldMine.s
@@ -557,15 +827,15 @@ help:
 	@echo ... Storages/Storage.obj
 	@echo ... Storages/Storage.i
 	@echo ... Storages/Storage.s
+	@echo ... Storages/StorageType.obj
+	@echo ... Storages/StorageType.i
+	@echo ... Storages/StorageType.s
 	@echo ... Storages/TownHall.obj
 	@echo ... Storages/TownHall.i
 	@echo ... Storages/TownHall.s
 	@echo ... Storages/WoodStorage.obj
 	@echo ... Storages/WoodStorage.i
 	@echo ... Storages/WoodStorage.s
-	@echo ... World.obj
-	@echo ... World.i
-	@echo ... World.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

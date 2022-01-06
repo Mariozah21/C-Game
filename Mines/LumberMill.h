@@ -1,18 +1,18 @@
+
 //
-// Created by kamil on 17.11.2021.
+// Created by kamil on 23.12.2021.
 //
 
-#ifndef ZOOPROJEKT_LUMBERMILL_H
-#define ZOOPROJEKT_LUMBERMILL_H
-#include "Mines.h"
+#ifndef TRY_LUMBERMILL_H
+#define TRY_LUMBERMILL_H
+#include "MineType.h"
 
 class LumberMill : public MineType {
-    int m_buildLevel = 1;
 public:
-    std::string getId() override;
-    int getBuildLevel() override;
-    void setLevel();
+    LumberMill ();
+    std::string getId ();
+    int getBuildLevel ();
 };
 
 
-#endif //ZOOPROJEKT_LUMBERMILL_H
+#endif //TRY_LUMBERMILL_H

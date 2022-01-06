@@ -1,51 +1,66 @@
 //
-// Created by kamil on 17.11.2021.
+// Created by kamil on 23.12.2021.
 //
 
 #include "Mines.h"
 
-Mines::Mines(): Building("Mine") {
-    m_id = "Mines";
-    resource = 20;
+Mines::Mines(EnumMine enumMine) {
+    m_type = nullptr;
+    changeMineType(enumMine);
 }
 
-std::string Mines::getId() {
-    return m_id;
-}
-
-void Mines::changeState(EnumMine mineType) {
-    m_mineType = mineType;
-    if (m_type != nullptr){
+void Mines::changeMineType(EnumMine enumMine) {
+    m_enumMine = enumMine;
+    if (m_type != nullptr) {
         delete m_type;
     }
-
-    switch (m_mineType) {
+    switch (enumMine) {
         case EnumMine::GoldMine:
-            break;
-        case EnumMine::LumberMill:
+            m_type = new GoldMine();
             break;
         case EnumMine::StoneMine:
+            m_type = new StoneMine();
             break;
-        default:
-            std::cerr << "Unknown mine type!" << std::endl;
+        case EnumMine::LumberMill:
+            m_type = new LumberMill();
             break;
     }
     makeChanges();
 }
+
 void Mines::makeChanges() {
     setId(m_type->getId());
-    setBuildingLevel(m_type->getBuildLevel());
-}
-
-int Mines::generateResources() {
-    resource *= m_buildLevel;
-    return resource;
+    setBuildLevel(m_type->getBuildLevel());
 }
 
 void Mines::setId(std::string id) {
-    m_id = id;
+    m_type->m_id = id;
 }
 
-void Mines::setBuildingLevel(int buildLevel) {
-    m_buildLevel = buildLevel;
+void Mines::setBuildLevel(int buildLevel) {
+    m_type->m_buildLevel = buildLevel;
+}
+
+void Mines::upgradeLevel() {
+    m_type->m_buildLevel++;
+}
+
+std::string Mines::getId() {
+    return m_type->getId();
+}
+
+int Mines::getBuildLevel() {
+    return m_type->m_buildLevel;
+}
+
+void Mines::generateResource() {
+    m_resource = 20* m_type->m_buildLevel;
+}
+
+int Mines::getResource() {
+    return m_resource;
+}
+
+void Mines::printInfo() {
+    std::cout << "Building id: " << m_type->getId() << ". Building level: " << m_type->m_buildLevel << std::endl;
 }

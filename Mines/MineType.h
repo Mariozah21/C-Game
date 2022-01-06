@@ -1,16 +1,19 @@
 //
-// Created by kamil on 16.12.2021.
+// Created by kamil on 23.12.2021.
 //
 
-#ifndef ZOOPROJEKT_MINETYPE_H
-#define ZOOPROJEKT_MINETYPE_H
+#ifndef TRY_MINETYPE_H
+#define TRY_MINETYPE_H
 #include <iostream>
 
 class MineType {
 public:
-    virtual std::string getId() = 0;
-    virtual int getBuildLevel() = 0;
+    std::string m_id;
+    int m_buildLevel;
+    std::string getId ();
+    int getBuildLevel ();
+    void setBuildLevel ();
 };
 
 
-#endif //ZOOPROJEKT_MINETYPE_H
+#endif //TRY_MINETYPE_H

@@ -105,6 +105,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2021.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2021.3/bin/cmake/win/share/cmake-3.21/Modules/ProcessorCount.cmake"
+  "C:/SFML/lib/cmake/SFML/SFMLConfig.cmake"
+  "C:/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+  "C:/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake"
+  "C:/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake"
+  "C:/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake"
+  "C:/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.21.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
@@ -131,5 +137,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ZOOProjekt.dir/DependInfo.cmake"
+  "CMakeFiles/try.dir/DependInfo.cmake"
   )
